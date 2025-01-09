@@ -1,4 +1,4 @@
-﻿namespace BookExcercise
+namespace BookExcercise
 {
     internal class Program
     {
