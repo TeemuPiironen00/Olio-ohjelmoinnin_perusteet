@@ -24,6 +24,11 @@ namespace CarExcercise
             int.TryParse(Console.ReadLine(), out speed1);
             this.speed += speed1;
             Console.WriteLine(this.brand + ":n nopeus muutoksen jälkeen on " + this.speed);
+            if (speed1<=0)
+            {
+                Console.WriteLine("Error");
+                
+            }
         }
         internal void AskData()
         {
