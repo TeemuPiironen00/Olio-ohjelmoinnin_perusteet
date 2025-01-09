@@ -1,10 +1,12 @@
-﻿namespace BookExcercise
+namespace BookExcercise
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
             /*Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, World!");
             Student studentA = new Student();
             studentA.firstName = "Anni";
             studentA.lastName = "Piiska";
