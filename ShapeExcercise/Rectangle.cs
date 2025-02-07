@@ -37,7 +37,7 @@ namespace ShapeExcercise
         public override string GetInfo()
         {
         
-            return $"Type: {type}, Color: {color}, Length: {length}, Width: {width}, Area: {GetArea()}";
+            return $"Type: {type}, Color: {color}, Length: {length}, Width: {width}, Area: {GetArea():F2}";
         }
 
         public override string? ToString()

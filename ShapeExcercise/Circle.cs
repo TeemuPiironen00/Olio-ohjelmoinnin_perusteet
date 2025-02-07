@@ -17,7 +17,7 @@ namespace ShapeExcercise
 
         public override string GetInfo()
         { 
-            return $"Type: {type}, Color: {color}, Radius: {radius}, Area: {GetArea()}";
+            return $"Type: {type}, Color: {color}, Radius: {radius}, Area: {GetArea():F2}";
         }
 
         public override bool Equals(object? obj)
